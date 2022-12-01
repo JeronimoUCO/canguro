@@ -19,5 +19,6 @@ def kangaroo(x1, v1, x2, v2):
     # Write your code here
     if x1 < x2 and v1 > v2:
         return "YES"
+    elif x1 > x2 and v1 < v2:
     else:
         return "NO"
