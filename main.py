@@ -14,10 +14,10 @@ import sys
 #  3. INTEGER x2
 #  4. INTEGER v2
 #
-x_1 = int(input("Ingresa la posicion en que empieza el canguro 1"))
-v_1 = int(input("Ingresa la velocidad a la que se mueve el canguro 1"))
-x_2 = int(input("Ingresa la posicion en que empieza el canguro 2"))
-v_2 = int(input("Ingresa la velocidad a la que se mueve el canguro 2"))
+x_1 = int(input("Ingresa la posicion en que empieza el canguro 1: "))
+v_1 = int(input("Ingresa la velocidad a la que se mueve el canguro 1: "))
+x_2 = int(input("Ingresa la posicion en que empieza el canguro 2: "))
+v_2 = int(input("Ingresa la velocidad a la que se mueve el canguro 2: "))
 
 def kangaroo(x1, v1, x2, v2):
     # Write your code here
